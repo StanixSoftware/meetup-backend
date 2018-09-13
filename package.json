@@ -11,9 +11,11 @@
     "babel-register": "^6.26.0",
     "dotenv": "^6.0.0",
     "express": "^4.16.3",
-    "mongoose": "^5.2.14"
+    "mongoose": "^5.2.14",
+    "nodemon": "^1.18.4"
   },
   "scripts": {
-    "start": "node index.js"
+    "start": "node index.js",
+    "dev": "NODE_ENV=development nodemon index.js"
   }
 }
