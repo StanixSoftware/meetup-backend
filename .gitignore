@@ -1,0 +1,8 @@
+# Env 
+.env
+
+# Babel
+.babelrc
+
+# Nodel modules
+node_modules
