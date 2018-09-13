@@ -1,2 +1,2 @@
-import MeetupRoutes from './routes';
+import MeetupRoutes from '../../config/routes';
 export { MeetupRoutes };
