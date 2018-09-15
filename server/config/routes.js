@@ -1,6 +1,6 @@
 import { Router } from 'express';
 
-import * as MeetupController from '../modules/meetups/controllers/meetup_controller';
+import * as MeetupController from 'controllers/meetup_controller';
 
 const routes = new Router();
 
