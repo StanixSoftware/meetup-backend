@@ -23,5 +23,8 @@
     "start": "node index.js",
     "dev": "NODE_ENV=development nodemon index.js",
     "prod": "NODE_ENV=production nodemon index.js"
+  },
+  "devDependencies": {
+    "eslint-config-equimper": "^2.2.2"
   }
 }
