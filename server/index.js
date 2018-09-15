@@ -7,6 +7,7 @@ import { MeetupRoutes } from 'modules';
 
 dotenv.config();
 
+
 const app = express();
 
 /*
@@ -24,9 +25,9 @@ app.use('/api', [MeetupRoutes]);
 const PORT = process.env.PORT || 3000;
 
 app.listen(PORT, (err) => {
-    if (err) {
-        console.log(err);
-    } else {
-        console.log(`App listening on port: ${PORT}`);
-    }
+  if (err) {
+    console.log(err);
+  } else {
+    console.log(`App listening on port: ${PORT}`);
+  }
 });

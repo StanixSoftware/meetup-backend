@@ -1,2 +1,1 @@
-import MeetupRoutes from 'config/routes';
-export { MeetupRoutes };
+export { default } from 'config/routes';

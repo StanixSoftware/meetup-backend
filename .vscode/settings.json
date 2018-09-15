@@ -1,0 +1,10 @@
+{
+  "window.zoomLevel": 0,
+  "editor.renderWhitespace": "all",
+  "editor.tabSize": 2,
+  "javascript.updateImportsOnFileMove.enabled": "always",
+  "eslint.packageManager": "yarn",
+  "files.insertFinalNewline": true,
+  "files.trimFinalNewlines": true,
+  "files.eol": "\n",
+}
