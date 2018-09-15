@@ -1,9 +1,9 @@
 import express from 'express';
 import dotenv from 'dotenv';
 
-import dbConfig from './config/db';
-import middlewaresConfig from './config/middlewares';
-import { MeetupRoutes } from './modules';
+import dbConfig from 'config/db';
+import middlewaresConfig from 'config/middlewares';
+import { MeetupRoutes } from 'modules';
 
 dotenv.config();
 
