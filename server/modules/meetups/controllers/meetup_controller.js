@@ -1,4 +1,4 @@
-import Meetup from '../models/meetup';
+import Meetup from 'models/meetup';
 
 export const createMeetup = async (req, res) => {
     const { title, description } = req.body;

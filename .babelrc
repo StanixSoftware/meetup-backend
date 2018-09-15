@@ -1,3 +1,14 @@
 {
-    "presets": ["es2015", "stage-0"]
+    "presets": ["es2015", "stage-0"],
+    "plugins": [
+        ["module-resolver", {
+            "root": ["./server"],
+            "alias": {
+                "models": "./server/modules/meetups/models",
+                "controllers": "./server/modules/meetups/controllers",
+                "meetups": "./server/modules/meetups",
+                "server": "index.js"
+            }
+        }]
+    ]
 }
