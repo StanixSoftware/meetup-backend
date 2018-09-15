@@ -25,6 +25,9 @@
     "prod": "NODE_ENV=production nodemon index.js"
   },
   "devDependencies": {
-    "eslint-config-equimper": "^2.2.2"
+    "eslint": "^5.6.0",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-import-resolver-babel-module": "^4.0.0",
+    "eslint-plugin-import": "^2.14.0"
   }
 }
